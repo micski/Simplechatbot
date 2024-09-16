@@ -1,7 +1,14 @@
-# .gitignore
+# Ignorowanie wirtualnych środowisk
+venv/
+rasa_env/
+
+# Ignorowanie dużych plików binarnych
+*.dll
+*.pyd
+
+# Ignorowanie plików i katalogów generowanych automatycznie
+models/
+.rasa/
+*.log
 __pycache__/
 *.pyc
-.env
-venv/
-models/
-*.db
